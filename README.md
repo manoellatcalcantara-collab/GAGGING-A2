@@ -33,23 +33,6 @@ O projeto foi adaptado para a disciplina de **Introducao a programacao**. Ele co
 |-- coleta_colab_opcional.md
 ```
 
-## Como rodar
-
-```bash
-pip install -r requirements.txt
-streamlit run app.py
-```
-
-## Formato do CSV tratado
-
-As colunas obrigatorias para upload manual sao:
-
-```csv
-data,fonte,artista,tema,texto,curtidas,compartilhamentos,comentarios
-```
-
-O arquivo tratado tambem pode trazer `url_origem` e `coleta`, que ajudam a documentar de onde cada registro veio.
-
 ## Fontes dos dados
 
 Os dados do dashboard combinam uma base amostral tratada com os CSVs recentes de Billboard, Pitchfork e Rolling Stone. Os tres arquivos brutos ficam preservados em `data/` para consulta, auditoria e novas transformacoes.
